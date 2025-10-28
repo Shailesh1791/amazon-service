@@ -1,9 +1,9 @@
-package com.service.productCatalog.service;
+package com.shailesh1791.amazon_service.service;
 
-import com.service.productCatalog.dto.ProductDTO;
-import com.service.productCatalog.entity.Product;
-import com.service.productCatalog.mapper.ProductMapper;
-import com.service.productCatalog.repo.ProductCatalogRepo;
+import com.shailesh1791.amazon_service.dto.ProductDTO;
+import com.shailesh1791.amazon_service.entity.Product;
+import com.shailesh1791.amazon_service.mapper.ProductMapper;
+import com.shailesh1791.amazon_service.repo.ProductCatalogRepo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

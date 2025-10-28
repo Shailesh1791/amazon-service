@@ -1,6 +1,6 @@
-package com.service.productCatalog.repo;
+package com.shailesh1791.amazon_service.repo;
 
-import com.service.productCatalog.entity.Product;
+import com.shailesh1791.amazon_service.entity.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

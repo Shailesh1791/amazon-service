@@ -1,12 +1,12 @@
-package com.service.productCatalog.controller;
+package com.shailesh1791.amazon_service.controller;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.service.productCatalog.dto.ProductDTO;
-import com.service.productCatalog.dto.SearchProductDTO;
-import com.service.productCatalog.entity.Product;
-import com.service.productCatalog.service.IProductService;
-import com.service.productCatalog.utils.JwtUtil;
+import com.shailesh1791.amazon_service.dto.ProductDTO;
+import com.shailesh1791.amazon_service.dto.SearchProductDTO;
+import com.shailesh1791.amazon_service.entity.Product;
+import com.shailesh1791.amazon_service.service.IProductService;
+import com.shailesh1791.amazon_service.utils.JwtUtil;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
