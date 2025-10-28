@@ -40,7 +40,7 @@ public class OrderController {
         if (orderDTOS == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        log.info("getAllOrders finished");
+        log.info("getAllOrders finished ...");
         return new ResponseEntity<>(orderDTOS, HttpStatus.OK);
     }
 
